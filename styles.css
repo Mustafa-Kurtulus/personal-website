@@ -1,0 +1,76 @@
+body {
+    background-color: #bbd2fc;
+}
+
+#landing-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 25vh 25vh;
+}
+
+#introduction {
+    align-self: center;
+    justify-self: center;
+}
+
+#introduction > * {
+    color: black;
+    font-size: 2em;
+    text-align: center;
+}
+
+#introduction > h1 {
+    font-size: 4em;
+}
+
+#job-title {
+    color: #2872fa;
+}
+
+#profile-photo {
+    justify-self: start;
+    align-self: center;
+    padding: 3%;
+    padding-bottom: 0;
+    border-radius: 25% 25% 10% 10%;
+    background-color: #fadfcf;
+}
+
+.title {
+    text-align: center;
+    color: black;
+    font-size: 3em;
+}
+
+#background-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin: 20vh 10vh;
+}
+
+.background-item {
+    height: 50px;
+    padding: 2rem;
+    border: 0.5rem solid #2872fa;
+    border-radius: 20%;
+    background-color: white;
+    text-align: center;
+}
+
+#footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#signature {
+    padding-left: 1vw;
+}
+
+#socials {
+    display: flex;
+    width: 30vw;
+    padding: 1em;
+    justify-content: space-around;
+}
